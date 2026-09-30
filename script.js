@@ -3,3 +3,14 @@ let btnFechar = document.queryScelector(".botao-fechar");
 let modal= document.queryScelector(".modal-fundo");
 
 btnAjuda.addEventlistener("click",abremodal);
+btnFechar.addEventlistener("click",fechamodal);
+
+fuction abreModal(){
+    modal.style.display = "block";
+}
+
+
+
+function fechamento(){
+    modal.style.display = "none";
+}
